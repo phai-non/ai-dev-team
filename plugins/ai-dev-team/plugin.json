@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-dev-team",
+  "version": "0.1.0",
+  "description": "로컬 Git 프로젝트에서 한 가지 개발 요청을 정리하고 구현, 검증, 리뷰까지 진행합니다.",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "AI 개발팀",
+        "shortDescription": "현재 프로젝트에서 구현부터 리뷰까지 진행합니다."
+      }
+    }
+  }
+}
